@@ -1,4 +1,5 @@
-package ObserverDesignPatter;
+package ObserverDesgnPattern;
+
 
 public interface DisplayElement {
     /*

@@ -1,4 +1,4 @@
-package ObserverDesignPatter;
+package ObserverDesgnPattern;
 
 public class OctalObserver implements Observer, DisplayElement {
     private Subject decimalSubject;

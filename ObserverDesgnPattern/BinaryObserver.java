@@ -1,4 +1,6 @@
-package ObserverDesignPatter;
+package ObserverDesgnPattern;
+
+
 
 
     public class BinaryObserver implements Observer, DisplayElement {

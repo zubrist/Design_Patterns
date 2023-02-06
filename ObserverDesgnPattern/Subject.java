@@ -1,4 +1,4 @@
-package ObserverDesignPatter;
+package ObserverDesgnPattern;
 
 public interface Subject {
     /*

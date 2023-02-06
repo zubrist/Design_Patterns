@@ -1,4 +1,4 @@
-package ObserverDesignPatter;
+package ObserverDesgnPattern;
 
 public class HexObserver implements Observer, DisplayElement {
     private Subject decimalSubject;
