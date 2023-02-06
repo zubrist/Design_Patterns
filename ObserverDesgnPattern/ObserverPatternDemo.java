@@ -1,5 +1,7 @@
 package ObserverDesgnPattern;
 
+import java.util.Scanner;
+
 public class ObserverPatternDemo {
  
     public static void main(String[] args) {
@@ -14,11 +16,21 @@ public class ObserverPatternDemo {
      OctalObserver octalObserver = new OctalObserver(decimalData);
      HexObserver hexObserver = new HexObserver(decimalData);
     
-     // set Decimal Value
-     decimalData.setDecimalValue(24);
+     // Input Decimal Value
+     System.out.println("Enter A decimal value:");
+
+    Scanner sc = new Scanner(System.in);
+
+    int number= sc.nextInt();
+    System.out.println("Decimal String:" +number);
+     decimalData.setDecimalValue(number);
+
+     System.out.println("Enter A decimal value:");
+     int newNumber = sc.nextInt();
      System.out.println("\nNow, Data is changed.\n");
      // Now, new decimal value
-     decimalData.setDecimalValue(124);
+     System.out.println("Decimal String:" +newNumber);
+     decimalData.setDecimalValue(newNumber);
     
     }
    }
