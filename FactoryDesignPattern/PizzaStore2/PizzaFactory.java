@@ -6,18 +6,18 @@ public class PizzaFactory {
         
         Pizza pizza=null;
 
-        if(style.equals("American"))
+        if(style.equalsIgnoreCase("American"))
         {
-            if(type.equals("Chicken"))
+            if(type.equalsIgnoreCase("Chicken"))
             pizza = new AmericanChickenPizza();
         }
 
-        if(style.equals("American")){
+        if(style.equalsIgnoreCase("American")){
             if(type.equals("Paneer"))
                 pizza = new AmericanPaneerPizza();
         }
 
-        if (style.equals("American"))
+        if (style.equalsIgnoreCase("American"))
             if(type.equals("NA")){
             pizza =new AmericanPizza();}
 

@@ -18,6 +18,8 @@ public class Main {
         // Adding a movie to the comedy_movie Folder
         file annable = new file("Annable");
         horrorMovieDirectory.add(annable);
+        file unknown = new file ("ABD");
+        movieDirectory.add(unknown);
     
     
     movieDirectory.ls();
