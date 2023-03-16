@@ -6,7 +6,7 @@ public class VegPizza extends Pizza {
         souce="Some Fency souce";
         toppings.add("Diced Onion");
         toppings.add("Sliced Mashrooms");
-        toppings.add("Some More fency toppings..S")
+        toppings.add("Some More fency toppings..S");
 
     }
     

@@ -6,6 +6,6 @@ public class CheesePizza extends Pizza{
         souce ="Red Souce";
         toppings.add("toppngs1");
         toppings.add("toppings2");
-        toppings.add("topppings3")
+        toppings.add("topppings3");
     }
 }

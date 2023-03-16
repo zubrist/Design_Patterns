@@ -6,7 +6,7 @@ public class PepperoniPizza  extends Pizza{
         souce= "I cant pronounce it souce";
         toppings.add("Sliced Pepperoni");
         toppings.add("Sliced Onion");
-        toppings.add("Some Fency Toppings...")
+        toppings.add("Some Fency Toppings...");
     }
     
 }
