@@ -1,0 +1,5 @@
+Pizza Factory class has a method called CreatePizza to create of type chicken, Paneer and Corn.
+make a clint class to request any type of pizza mentioned above .
+Pizza class has a method getName() and also prepare(), bake(), cut() and box() methods.
+Now make a modifiedClient  class to request the pizza having the mentioned types but also having
+a style like Ameriacan, SouthIndian and NorthIndian Pizza... 

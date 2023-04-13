@@ -59,7 +59,7 @@ public class PizzaFactory {
         if(type.equalsIgnoreCase("Chicken"))
         {
             if(style.equalsIgnoreCase("North indian"))
-            pizza = new NotrthIndianChickenPizza();
+            pizza = new NorthIndianChickenPizza();
         }
 
         if(type.equalsIgnoreCase("Paneer")){

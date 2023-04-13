@@ -1,4 +1,4 @@
-public Class ModifiedClient {
+public class ModifiedClient {
 
      public static void main(String[] args) {
         

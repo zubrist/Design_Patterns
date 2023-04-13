@@ -42,7 +42,7 @@ class PaneerPizza extends Pizza{
     }
 }
 
-Class CornPizza extends Pizza{
+class CornPizza extends Pizza{
 
     public CornPizza(){
         name= "Corn Pizza";
